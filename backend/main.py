@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from routes import auth, tasks
-from database import Base, engine
+from backend.routes import auth, tasks
+from backend.database import Base, engine
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(

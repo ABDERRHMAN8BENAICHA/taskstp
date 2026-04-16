@@ -1,4 +1,4 @@
-from database import tasks_collection
+from backend.database import tasks_collection
 from bson import ObjectId
 
 def create_task(task):

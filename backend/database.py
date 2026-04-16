@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from pymongo import MongoClient
-from config import DATABASE_URL, MONGO_URL, MONGO_DB
+from backend.config import DATABASE_URL, MONGO_URL, MONGO_DB
 
 # PostgreSQL
 engine = create_engine(
