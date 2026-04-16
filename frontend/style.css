@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    background: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #ffffff;
+    border: 3px solid black;
+    padding: 25px;
+    width: 360px;
+    box-shadow: 8px 8px 0px black;
+}
+
+/* Titles */
+h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 3px solid black;
+    background: #fff;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 3px solid black;
+    background: #ffe600;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+/* Button press effect */
+button:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px black;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+li {
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+li button {
+    width: auto;
+    padding: 5px 10px;
+    background: #ff4d4d;
+}
+
+/* Logout button */
+.logout {
+    background: #000;
+    color: #fff;
+}
