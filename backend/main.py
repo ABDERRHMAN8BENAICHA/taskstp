@@ -14,7 +14,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # مؤقت (للتجربة فقط)
+    allow_origins=["https://taskstp.vercel.app/"],  # مؤقت (للتجربة فقط)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

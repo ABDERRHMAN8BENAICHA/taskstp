@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000";
+const API = "https://tasks-api-t76h.onrender.com";
 
 // Helper validation
 function isEmpty(value) {
