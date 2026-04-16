@@ -4,7 +4,10 @@ from pymongo import MongoClient
 from config import DATABASE_URL, MONGO_URL, MONGO_DB
 
 # PostgreSQL
-engine = create_engine(DATABASE_URL)
+engine = create_engine(
+    DATABASE_URL,
+    connect_args={"sslmode": "require"}
+)
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
